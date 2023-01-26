@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>Employee Database Management</h1>
+        <button class="add-btn">Add employee</button>
+      </div>
+      <div class="employee-container">
+        <div class="employee-list-container">
+          <h4>Employee List</h4>
+        </div>
+        <div class="employee-info-container">
+          <h4>Employee Information</h4>
+          <!-- <div class="employee-info">
+            <div class="img-container">
+              <img
+                src="https://images.unsplash.com/photo-1674583620734-c9402253f475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt=""
+                class="img"
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <div class="info-container">
+              <div class="name">name</div>
+              <div class="address">address</div>
+              <div class="number">number</div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="modal-wrapper inactive">
+      <div class="modal-container">
+        <h3 class="modal-title">Add New Employee</h3>
+        <button class="close-modal">Close</button>
+        <form>
+          <label for="fName">First Name</label>
+          <input type="text" />
+          <label for="lName">Last Name</label>
+          <input type="text" />
+          <label for="number">Phone Number</label>
+          <input type="tel" />
+          <label for="email">Email</label>
+          <input type="text" />
+          <label for="image">Profile Photo Link</label>
+          <input type="url" />
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

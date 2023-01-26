@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-btn {
+  margin-left: auto;
+}
+
+.employee-container {
+  border: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+}
+
+.employee-list-container {
+  border-right: 1px solid black;
+  flex: 1;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.employee-info-container {
+  flex: 2;
+}
+
+.employee-info {
+  cursor: pointer;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-list {
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn {
+  margin-left: auto;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.modal-wrapper {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+  height: 400px;
+  width: 400px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
